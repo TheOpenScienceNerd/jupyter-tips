@@ -1,4 +1,5 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/TheOpenScienceNerd/jupyter-tips/HEAD)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14502100.svg)](https://doi.org/10.5281/zenodo.14502100)
 
 # Jupyter notebook tips
 
