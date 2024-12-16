@@ -40,5 +40,34 @@ The examples have been setup to run online in Jupyter notebooks via binder [![Bi
 
 > mybinder.org is a free tier service.  If the repo has not been used in a while Binder will need to re-containerise the code repository, and push to BinderHub. This will take several minutes. After that the online environment will be quick to load.
 
+## Repo overview
 
+```
+.
+├── binder
+│   └── environment.yml
+├── CHANGES.md
+├── CITATION.cff
+├── LICENSE
+├── notebooks
+│   └── test_package.ipynb
+├── pyproject.toml
+├── README.md
+├── tests
+│   └── test_datasets.ipynb
+│   └── test_model.ipynb
+└── treat_sim
+    ├── data
+    │   └── ed_arrivals.csv
+    │   └── ed_arrivals_scenario1.csv
+    ├── __init__.py
+    ├── datasets.py
+    ├── distributions.py
+    └── model.py
+```
+
+* `binder/` - contains the environment.yml file (sim) and all dependencies managed via conda, used to set-up the notebooks on Binder.
+* `CHANGES.md` - changelog with record of notable changes to project between versions.
+* `CITATION.cff` - citation information for the package.
+* `LICENSE` - details of the MIT permissive license of this work.
 
